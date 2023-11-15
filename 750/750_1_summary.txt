@@ -1,0 +1,7 @@
+Pick Order	Count	Median On-Target Score	Avg On-Target Score	Std Dev On-Target Score	Median # Tier I Bin I Matches	Median # Tier II Bin I Matches	Median # Tier III Bin I Matches	Median # Tier I Bin II Matches	Median # Tier II Bin II Matches	Median # Tier III Bin II Matches	Median # Tier I Bin III Matches	Median # Tier II Bin III Matches	Median # Tier III Bin III Matches	Median # Tier I Bin IV Matches	Median # Tier II Bin IV Matches	Median # Tier III Bin IV Matches
+1	488	0.3901	0.3694	0.4141	0.0	0.0	0.0	0.0	1.0	140.5	1.0	1.0	231.5	1.0	2.0	314.5
+2	478	0.3105	0.2495	0.4758	0.0	0.0	0.0	0.0	1.0	153.0	1.0	1.0	245.0	1.0	2.0	325.5
+3	472	0.2791	0.213	0.4995	0.0	0.0	0.0	0.0	1.0	160.5	1.0	2.0	252.0	1.0	2.0	346.0
+4	464	0.2282	0.1612	0.5251	0.0	0.0	0.0	0.0	1.0	169.0	1.0	1.0	254.0	1.0	2.0	333.5
+5	459	0.1738	0.118	0.5517	0.0	0.0	0.0	0.0	1.0	168.0	1.0	2.0	260.0	1.0	2.0	347.0
+Negative Control	200				0.0	0.0	0.5	0.0	0.0	0.5	0.0	0.0	2.0	0.0	0.0	8.0
