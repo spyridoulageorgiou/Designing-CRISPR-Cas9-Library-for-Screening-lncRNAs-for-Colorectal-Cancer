@@ -1,0 +1,6 @@
+bedtools intersect -a 500.bed -b gencode.bed  -v > 500_non-intersection.bed
+bedtools intersect -a 500.bed -b gencode.bed  > 500_intersection.bed
+bedtools intersect -a 750.bed -b gencode.bed  > 750_intersection.bed
+bedtools intersect -a 1000.bed -b gencode.bed  > 1000_intersection.bed
+bedtools intersect -a 1000.bed -b gencode.bed -v  > 1000_non-intersection.bed
+bedtools intersect -a 750.bed -b gencode.bed -v  > 750_non-intersection.bed
