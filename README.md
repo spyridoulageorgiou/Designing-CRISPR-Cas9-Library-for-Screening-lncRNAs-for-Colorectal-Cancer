@@ -1,0 +1,3 @@
+# Designing_CRISPR_Cas9_Library_for_Screening_lncRNAs_for_Colorectal_Cancer
+
+In this project, we conducted an analysis of the human genome using the GENCODE project. Our aim was to identify potential targets for CRISPR-based gene editing in the context of cancer research. We imported the genome data, created BED files for protein-coding genes and epithelial intervals, and performed intersection analysis using bedtools. We also analyzed unique genes and transcripts, generated plots and a Venn diagram, and began the analysis of sgRNAs. Furthermore, we converted CRISPick results to BED format and performed a TSS distance analysis. Overall, our findings provide valuable insights for potential CRISPR-based gene editing strategies in cancer research.
