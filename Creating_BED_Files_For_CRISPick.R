@@ -1,5 +1,5 @@
 library(readxl)
-setwd("C:/Users/Spyridoula/OneDrive/Desktop/Universit‰t/Semester 3/4 weeks Project/alex")
+setwd("C:/Users/Spyridoula/OneDrive/Desktop/Universit√§t/Semester 3/4 weeks Project/alex")
 #Create bed file from gencode
 gencode <- read_excel("C:/Users/Spyridoula/Downloads/All_gencodev38_genes (1).xlsx")
 
