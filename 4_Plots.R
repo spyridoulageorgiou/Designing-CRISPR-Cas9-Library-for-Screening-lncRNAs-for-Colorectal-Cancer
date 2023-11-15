@@ -1,9 +1,9 @@
 library(readxl)
 library(writexl)
 
-non_intersect_500 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/Universität/Semester 3/4 weeks Project/alex/clean_500_non_intersect.xlsx", col_names = FALSE)
-non_intersect_750 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/Universität/Semester 3/4 weeks Project/alex/clean_750_non_intersect.xlsx", col_names = FALSE)
-non_intersect_1000 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/Universität/Semester 3/4 weeks Project/alex/clean_1000_non_intersect.xlsx", col_names = FALSE)
+non_intersect_500 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/UniversitÃ¤t/Semester 3/4 weeks Project/alex/clean_500_non_intersect.xlsx", col_names = FALSE)
+non_intersect_750 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/UniversitÃ¤t/Semester 3/4 weeks Project/alex/clean_750_non_intersect.xlsx", col_names = FALSE)
+non_intersect_1000 <- read_excel("C:/Users/Spyridoula/OneDrive/Desktop/UniversitÃ¤t/Semester 3/4 weeks Project/alex/clean_1000_non_intersect.xlsx", col_names = FALSE)
 
 # excels to data frames
 non_intersect_500.df <- as.data.frame(non_intersect_500)
@@ -62,7 +62,7 @@ axis(side = 2)
 
 
 
-file_path <- "C:/Users/Spyridoula/OneDrive/Desktop/Universität/Semester 3/4 weeks Project/alex/Plots/transcripts_frequencies_1_2.xlsx"
+file_path <- "C:/Users/Spyridoula/OneDrive/Desktop/UniversitÃ¤t/Semester 3/4 weeks Project/alex/Plots/transcripts_frequencies_1_2.xlsx"
 
 # transcripts appearing 1 or 2 times
 filtered_counts_1_2 <- transcript_counts[transcript_counts %in% c(1, 2)]
@@ -108,9 +108,9 @@ barplot(data, beside = TRUE, col = colors, main = "Grouped Barplot",
         names.arg = group_names)
 
 
-#### SgRNAs analysis
+#### sgRNAs analysis
 
-sgRNAs.data.500 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\Universität\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
+sgRNAs.data.500 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\UniversitÃ¤t\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
                       sheet = "500"))
 
 sgRNAs.data.500 <- sgRNAs.data.500[!grepl("NEG_CONTROL", sgRNAs.data.500$Input),]
@@ -134,7 +134,7 @@ axis(side = 1, at = 0:5, labels = 0:5)
 axis(side = 2)
 
 #750
-sgRNAs.data.750 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\Universität\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
+sgRNAs.data.750 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\UniversitÃ¤t\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
                                             sheet = "750"))
 
 sgRNAs.data.750 <- sgRNAs.data.750[!grepl("NEG_CONTROL", sgRNAs.data.750$Input),]
@@ -158,7 +158,7 @@ axis(side = 1, at = 0:5, labels = 0:5)
 axis(side = 2)
 
 #1000
-sgRNAs.data.1000 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\Universität\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
+sgRNAs.data.1000 <- as.data.frame(read_excel("C:\\Users\\Spyridoula\\OneDrive\\Desktop\\UniversitÃ¤t\\Semester 3\\4 weeks Project\\alex\\CRISPick Results\\sgRNAs.xlsx", 
                                              sheet = "1000"))
 
 sgRNAs.data.1000 <- sgRNAs.data.1000[!grepl("NEG_CONTROL", sgRNAs.data.1000$Input),]
